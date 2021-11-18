@@ -1,0 +1,47 @@
+html,body{
+    margin: 0px!important;;
+    padding:0px;
+}
+
+body{
+    background-image: linear-gradient(-90deg,black,blue,black)!important;
+}
+
+.rounded-my{
+    border-radius: 30px!important;
+}
+
+#heading{
+    background-image: linear-gradient(45deg,red,blue);
+    background-size: 200%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    animation: heading-bg 3s infinite;
+
+}
+
+@keyframes heading-bg {
+    0% { background-position:left}
+    50%{ background-position: right; }
+    100% { background-position:left}
+}
+
+*[class*="white"]{
+    border-radius: 15px;
+}
+
+#webcam{
+    height: 282px!important;
+    width: 370px!important;
+    border: 10px ridge grey;
+}
+
+.shadowm{
+    box-shadow: 9px 9px 5px black;
+}
+
+.btnshadow{
+    box-shadow: 7px 7px 5px black;
+}
