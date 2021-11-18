@@ -45,3 +45,6 @@ body{
 .btnshadow{
     box-shadow: 7px 7px 5px black;
 }
+hr{
+    margin: 0;
+}
